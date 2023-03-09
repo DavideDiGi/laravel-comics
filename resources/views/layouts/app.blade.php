@@ -15,7 +15,13 @@
     @include('partials.header')
 
     <main>
-       @yield('main_content')
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap">
+                    @yield('main_content')
+                </div>
+            </div>
+        </div>
     </main>
 
     @include('partials.footer')
