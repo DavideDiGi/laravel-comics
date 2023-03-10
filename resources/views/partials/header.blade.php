@@ -1,8 +1,8 @@
-<header class="bg-info">
+<header>
     <div class="container">
         <div class="header-container d-flex justify-content-around align-items-center">
             <div class="d-flex justify-content-center align-items-center">
-                LOGO
+                <div class="logo"><img src="{{ asset('img/dc-logo.png') }}" alt="logo"></div>
             </div>
             <nav>
                 <ul>
@@ -18,8 +18,16 @@
                     <li>SHOP</li>
                 </ul>
             </nav>
-            <div class="d-flex justify-content-center align-items-center">
-                SEARCHBAR
+            <div class="d-flex justify-content-center align-items-center position-relative">
+                <div class="input-group search">
+                    <div class="form">
+                        <input type="search" id="form1" class="" />
+                    </div>
+                    <button type="button" class="btn ">
+                        <span>Search</span>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
+//******************** HEADER ********************
 header {
     height: 70px;
 
@@ -10,15 +11,49 @@ header {
         line-height: 70px;
     }
 
+    .logo {
+        text-align: center;
+
+        img {
+            // width: 100%;
+            height: 50px;
+
+        }
+    }
+
+    .search {
+        // border-bottom: 1px solid skyblue;
+        height: 30px;
+
+
+        input {
+            height: 30px;
+            outline: none;
+            border-bottom: 2px solid skyblue;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+
+        button {
+            font-size: 0.8rem;
+            color: black;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            position: absolute;
+            right: 80px;
+        }
+    }
+
     nav {
         height: 100%;
         flex-grow: 1;
         align-self: center;
-        background-color: green;
 
         ul {
             height: 100%;
-            background-color: red;
             list-style: none;
             display: flex;
             justify-content: space-around;
@@ -34,14 +69,85 @@ header {
 }
 
 
+//******************** MAIN ********************
 
 main {
-    .card {
-        width: calc(100% / 6);
+    .jumbotron {
+        width: 100%;
+        height: 300px;
+        background-image: url('img/jumbotron.jpg');
+        background-size: cover;
+        position: relative;
+
+        .button {
+            background-color: rgb(56, 128, 241);
+            border-style: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+
+            &.big {
+                font-size: 1.3rem;
+                position: absolute;
+                // left: 20%;
+                bottom: -20px;
+                padding: 5px 20px;
+            }
+        }
+    }
+
+    .card-container {
+        margin-top: 50px;
+        margin-bottom: 10px;
+
+
+        .card {
+            width: calc(100% / 6);
+            margin-bottom: 20px;
+            height: 200px;
+            padding: 10px;
+            text-decoration: none;
+            border: none;
+            color: white;
+            display: inline-block;
+            background-color: transparent;
+
+            .card-cover {
+                // background-color: gold;
+                height: 80%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .card-title {
+                margin-top: 10px;
+                font-size: 0.8rem;
+            }
+        }
+
+    }
+
+    .load {
+        text-align: center;
+        padding-bottom: 20px;
+
+        .lil {
+            color: white;
+            font-weight: bold;
+            font-size: 0.8rem;
+            padding: 5px 40px;
+            background-color: rgb(56, 128, 241);
+            border: none;
+
+        }
+
     }
 }
 
-
+//******************** FOOTER ********************
 
 footer {
 
