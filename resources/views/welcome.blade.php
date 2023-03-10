@@ -28,8 +28,8 @@
     <ul>
         <li>
             <a href="#">
-                <img src="{{ asset('img/adv.jpg') }}" alt="">
-                <span>
+                <img src="{{ asset('img/buy-comics-digital-comics.png') }}" alt="">
+                <span class="merchandising-text">
                     DIGITAL COMICS
                 </span>
             </a>
@@ -37,8 +37,8 @@
 
         <li>
             <a href="#">
-                <img src="{{ asset('img/adv.jpg') }}" alt="">
-                <span>
+                <img src="{{ asset('img/buy-comics-merchandise.png') }}" alt="">
+                <span class="merchandising-text">
                     DC MERCHANDISE
                 </span>
             </a>
@@ -46,8 +46,8 @@
 
         <li>
             <a href="#">
-                <img src="{{ asset('img/adv.jpg') }}" alt="">
-                <span>
+                <img src="{{ asset('img/buy-comics-subscriptions.png') }}" alt="">
+                <span class="merchandising-text">
                     SUBSCRIPTION
                 </span>
             </a>
@@ -55,17 +55,17 @@
 
         <li>
             <a href="#">
-                <img src="{{ asset('img/adv.jpg') }}" alt="">
-                <span>
+                <img src="{{ asset('img/buy-comics-shop-locator.png') }}" alt="">
+                <span class="merchandising-text">
                     COMIC SHOP LOCATOR
                 </span>
             </a>
         </li>
 
         <li>
-            <a href="#">
-                <img src="{{ asset('img/adv.jpg') }}" alt="">
-                <span>
+            <a href="#" class="credit">
+                <img src="{{ asset('img/buy-dc-power-visa.svg') }}" alt="">
+                <span class="merchandising-text credit-card">
                     DC POWER VISA
                 </span>
             </a>

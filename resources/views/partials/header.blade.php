@@ -7,7 +7,7 @@
             <nav>
                 <ul>
                     <li>CHARACTERS</li>
-                    <li>COMICS</li>
+                    <li class="active">COMICS</li>
                     <li>MOVIES</li>
                     <li>TV</li>
                     <li>GAMES</li>

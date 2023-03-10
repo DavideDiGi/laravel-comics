@@ -1,4 +1,4 @@
-<footer class="bg-black">
+<footer>
 
     <div class="middleFooter">
 
@@ -70,19 +70,19 @@
        
         <div class="footer-container d-flex justify-content-between align-items-center">
             
-                <div class="d-flex justify-content-center align-items-center ">
-                   <button>SIGN-UP BUTTON</button> 
+                <div class="sign d-flex justify-content-center align-items-center ">
+                   <button>SIGN-UP NOW!</button> 
                 </div>
 
                 <div class="nav-container d-flex justify-content-center align-items-center ">
                     <nav>
                         <ul>
-                            <li>FOLLOW US</li>
-                            <li>F</li>
-                            <li>T</li>
-                            <li>Y</li>
-                            <li>P</li>
-                            <li>M</li>
+                            <li class="follow">FOLLOW US</li>
+                            <li><a href="#"><span><img src="img/footer-facebook.png" alt="facebook"></span></a></li>
+                            <li><a href="#"><span><img src="img/footer-twitter.png" alt="twitter"></span></a></li>
+                            <li><a href="#"><span><img src="img/footer-youtube.png" alt="youtube"></span></a></li>
+                            <li><a href="#"><span><img src="img/footer-pinterest.png" alt="pinterest"></span></a></li>
+                            <li><a href="#"><span><img src="img/footer-periscope.png" alt="periscope"></span></a></li>
                         </ul>
                     </nav>
                 </div>
