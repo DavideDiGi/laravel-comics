@@ -32,6 +32,11 @@
                 <button class="lil button">LOAD MORE</button>
             </div>
         </div>
+        <div class="row">
+            <div class="topFooter col-12">
+                @yield('merchandising')
+            </div>
+        </div>
     </main>
 
     @include('partials.footer')

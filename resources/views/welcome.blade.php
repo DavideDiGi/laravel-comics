@@ -18,15 +18,62 @@
         <div class="card-cover"><img src="{{ asset('img/adv.jpg') }}" alt="comic"></div>
         <div class="card-title">{{ strtoupper($fumetto['title']) }}</div>
     </div>
-        {{-- <img src="" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text"><div>{{ $fumetto['title'] }}</div></p>
-        </div> --}}
-    
-        {{-- <div>{{ $fumetto['title'] }}</div> --}}
         
     @endforeach
 
+@endsection
+
+@section('merchandising')
+<div class="container">
+    <ul>
+        <li>
+            <a href="#">
+                <img src="{{ asset('img/adv.jpg') }}" alt="">
+                <span>
+                    DIGITAL COMICS
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <img src="{{ asset('img/adv.jpg') }}" alt="">
+                <span>
+                    DC MERCHANDISE
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <img src="{{ asset('img/adv.jpg') }}" alt="">
+                <span>
+                    SUBSCRIPTION
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <img src="{{ asset('img/adv.jpg') }}" alt="">
+                <span>
+                    COMIC SHOP LOCATOR
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <img src="{{ asset('img/adv.jpg') }}" alt="">
+                <span>
+                    DC POWER VISA
+                </span>
+            </a>
+        </li>
+
+
+    </ul>
+</div>
 @endsection
    
 
